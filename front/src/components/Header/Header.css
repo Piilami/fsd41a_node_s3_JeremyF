@@ -1,0 +1,39 @@
+.container--header-global {
+  width: 100%;
+  height: 5vh;
+  background-color: blue;
+  display: flex;
+}
+.container--logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15%;
+}
+.logo {
+  font-weight: 700;
+  font-size: 2rem;
+  color: white;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.container--btn-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.btn-header {
+  width: 15%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  &:hover {
+    cursor: pointer;
+  }
+}

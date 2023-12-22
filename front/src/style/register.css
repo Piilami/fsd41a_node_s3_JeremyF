@@ -1,0 +1,12 @@
+.global-container--register-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e8f4fc;
+  width: 100%;
+  height: 100%;
+}
+.container--register-form {
+  display: flex;
+  height: 100%;
+}
